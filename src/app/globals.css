@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #afbea4;
+  --foreground: #ffffff;
+  --font-family: serif, "TT";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #afbea4;
+    --foreground: #000000;
+  }
+}
+
+@font-face{
+  font-family: 'TT';
+  src: url('./assets/fonts/tt/TT-Livret-Display-Trial-Medium-BF6438a525adcea.ttf') format('truetype');
+  font-weight: semibold;
+  font-style: serif;
+}
+
+@font-face{
+  font-family: 'Lato';
+  src: url('./assets/fonts/Lato/Lato-Regular.ttf') format('trueType');
+  font-style: sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: (--font-family);
+}

@@ -58,8 +58,8 @@ export default function Left(){
                     <div className="line w-[30rem] bg-[#8b8b8b] h-[0.05rem] mt-4"></div>
 
                 <div className="buttons mt-8 flex">
-                    <button className='rounded-3xl px-12 bg-black text-xs max-h-12 py-3 text-[#afbea4] '>Schedule a Call</button>
-                    <button className='rounded-3xl px-6 bg-[#afbea4] text-xs max-h-12 py-3 border-[1px] border-black text-black ml-4'>Check Pricing</button>
+                    <button className='rounded-3xl px-12 bg-black hover:bg-[white] hover:text-black text-xs max-h-12 py-3 text-[#afbea4] '>Schedule a Call</button>
+                    <button className='rounded-3xl px-6 bg-[#afbea4] text-xs max-h-12 py-3 border-[1px] border-black text-black ml-4 hover:border-white hover:text-white'>Check Pricing</button>
                 </div>
                         </div> 
 

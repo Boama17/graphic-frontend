@@ -49,7 +49,7 @@ export default function Nav(){
                     <span>Our Pricing</span>
                     <span>Services</span>
                     <span>Signup</span>
-                    <button className='rounded-2xl -mt-1 px-4 bg-black max-h-8 text-[#afbea4] '>Hire designer</button>
+                    <button className='rounded-2xl -mt-1 px-4 bg-black max-h-8 text-[#afbea4] hover:bg-[white] hover:text-black'>Hire designer</button>
                 </div>           
         </div>
     );

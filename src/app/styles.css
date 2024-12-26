@@ -2,3 +2,26 @@
     line-height: 6rem;
 }
 
+.card{
+    animation: Return 0.5s ease forwards;
+}
+.card:hover{
+    animation: Hover 0.5s ease forwards;
+}
+
+@keyframes Hover {
+    to {
+        transform: translateY(-0.8rem);
+    }
+
+}
+
+@keyframes Return{
+    from{
+        transform: translateY(-0.8rem)
+    }
+    
+    to{
+        transform: translateY(0rem)
+    }
+}

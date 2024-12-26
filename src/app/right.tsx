@@ -17,14 +17,14 @@ export default function Right(){
                     <div className="info text-xl ml-4 font-[] mt-5">
                 <span className="">Best <span className="font-[TT]">*</span>Freelancer Website <span className="font-[TT] font-extrabold">^</span></span>
                 <p className="pt-2 ml-[4.5rem] text-base tracking-tight cursor-pointer flex">Sign Up
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 ml-2 mt-0.5 animate-pulse">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 ml-2 mt-0.5 hover:animate-[pulse]">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                     </svg>
                 </p>
                     </div>
                 </div>
               </div>
-            <img src={girl.src} alt="" className="-mt-[31rem] h-[38.99rem] ml-[26rem] w-[36rem]"/>
+            <img src={girl.src} alt="" className="-mt-[31rem] h-[38.99rem] rounded-tl-full ml-[26rem] w-[36rem]"/>
         </div>
     )
 }

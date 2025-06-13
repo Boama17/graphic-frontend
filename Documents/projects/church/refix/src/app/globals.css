@@ -1,0 +1,19 @@
+@import "tailwindcss";
+:root {
+  --font-didact-gothic: 'Didact Gothic', sans-serif;
+  --font-mukta: 'Mukta', sans-serif;
+}
+
+/* You can also set default font families */
+body {
+  font-family: var(--font-mukta);
+}
+
+/* Optional: Create utility classes for easy font switching */
+.font-didact {
+  font-family: var(--font-didact-gothic);
+}
+
+.font-mukta {
+  font-family: var(--font-mukta);
+}

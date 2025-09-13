@@ -1,0 +1,80 @@
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    transform: rotate(180deg);
+  }
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke-width:5.5;
+    stroke-linecap:round;
+  }
+
+
+.ham4 .top {
+    stroke-dasharray: 40 121;
+  }
+  
+  .ham4 .bottom {
+    stroke-dasharray: 40 121;
+  }
+  .ham4.active .top {
+    stroke-dashoffset: -68px;
+  }
+  .ham4.active .bottom {
+    stroke-dashoffset: -68px;
+  }
+
+
+
+
+
+
+.swiper-button-prev::after{
+    color: green;
+  }
+  
+.swiper-button-next::after{
+  color: green;
+}
+
+  
+
+  
+  
+  .list {
+    animation: slideOut 0.5s ease forwards;
+  }
+  
+  .list:hover {
+    animation: slideIn 0.5s ease forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateX(0.5rem);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0.5rem);
+    }
+    to {
+      transform: translateX(0rem);
+    }
+  }
+  
+.spin-slow{
+    animation: spin 5s linear infinite; 
+}
